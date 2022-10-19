@@ -1,0 +1,36 @@
+h1{
+    width: 100%;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: 0.5s;
+    box-shadow:  rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;;
+}
+
+.circle:hover{
+    opacity: 1;
+}
+
+#red{
+    background-color: red;
+
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#green{
+    background-color: green;
+}
